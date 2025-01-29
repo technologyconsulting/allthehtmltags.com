@@ -10,8 +10,8 @@ type Props = {
 export default function Header({ title }: Props) {
   return (
     <header className="container mx-auto flex flex-col">
-      <div className="flex items-center justify-center md:justify-start">
-        <div className="flex flex-col items-center md:flex-row md:items-center">
+      <div className="flex items-center">
+        <div className="flex flex-col md:flex-row md:items-center">
           <section className="-ml-2 flex">
             <span className="text-[#1db489]">
               <ChevronLeftIcon width={32} height={32} />
