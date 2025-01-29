@@ -6,11 +6,20 @@ import TagCard from "./tag-card";
 
 const data = [
   {
-    title: "<!-- -->",
+    title: "!-- --",
     type: "metadata",
     category: "metadata",
     description:
       "Allow developers to insert notes or explanations directly within the source code",
+    referenced: 1,
+    examples: 1,
+  },
+  {
+    title: "DOCTYPE",
+    type: "metadata",
+    category: "metadata",
+    description:
+      "Defines the HTML version used for browser rendering and compatibility",
     referenced: 1,
     examples: 1,
   },

@@ -16,13 +16,29 @@
 
 @layer base {
   :root {
-    --background: #ffffff;
+    --background: #ededed;
     --foreground: #171717;
+    --card-background: #343b56;
+    --card-foreground: #ededed;
+    --card-text-legend: #1db489;
+    --card-text-description: #1db489;
+    --primary-button: #343b56;
+    --primary-button-active: #1db489;
+    --primary-button-text: #ededed;
+    --primary-card-button: #007bff;
   }
 
   [data-theme='dark'] {
-    --background: #0a0a0a;
+    --background: #1e202a;
     --foreground: #ededed;
+    --card-background: #343b56;
+    --card-foreground: #ededed;
+    --card-text-legend: #1db489;
+    --card-text-description: #1db489;
+    --primary-button: #343b56;
+    --primary-button-active: #1db489;
+    --primary-button-text: #ededed;
+    --primary-card-button: #007bff;
   }
 }
 
